@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./page.css";
 
-function Page1() {
+
+function Regiao() {
   const [region, setRegion] = useState(""); // Estado para armazenar a região
 
   const [countryName, setCountryName] = useState(""); // Estado para armazenar o nome do país
@@ -46,4 +46,4 @@ function Page1() {
   );
 }
 
-export default Page1;
+export default Regiao;
