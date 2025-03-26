@@ -39,9 +39,8 @@ function Regiao() {
   
   return (
     <div>
-      <h1>{countryName}</h1>
-      <p>Welcome to Page 1!</p>
-      <h1>Region: {region}</h1>
+      
+      <h1>{countryName}'s Region: {region}</h1>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Page1 from "./Page1";
 
 function Home() {
   const [todosPaises, setTodosPaises] = useState([]);
@@ -89,7 +90,10 @@ function Home() {
                     <p>População: {dadosDosPaises.population}</p>
                     <p>continents: {dadosDosPaises.continents}</p>
                     <p>Area: {dadosDosPaises.area}km²</p>
+                    <Page1/>
                 </div>
+
+                
             )
         })}
       </div>
