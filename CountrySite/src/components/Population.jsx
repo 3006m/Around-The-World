@@ -7,7 +7,7 @@ function Population() {
   useEffect(() => {
     const fetchPopulation = async () => {
       // Obtém o país selecionado do localStorage
-      const savedCountry = localStorage.getItem("selectedCountry");
+      const savedCountry = localStorage.getItem("Países");
       setCountryName(savedCountry || "No country selected");
 
       if (savedCountry) {
